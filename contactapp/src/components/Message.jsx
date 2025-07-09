@@ -19,7 +19,7 @@ const Message = () => {
   const entry = location.state;
 
   const handleBack = () => {
-    navigate('/br');
+    navigate('/birthdays');
   };
 
   const name = entry?.name || 'Friend';
